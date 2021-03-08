@@ -1,6 +1,10 @@
 console.log('hiiii')
-alert("WELCOME to our page");
+function alertfunction(){
+    alert("WELCOME to our page");
+}
+alertfunction();
 
+function types(){
 var Age = prompt("PLEASE Enter you age"); 
 var mobilebrand = prompt("PLEASE Enter you Favorite Mobile brand"); 
 var computerbrand = prompt("PLEASE Enter you Favorite Computer brand");
@@ -29,3 +33,6 @@ else if(computerbrand == "dell")
  {
     alert("check what we have, welcome to our page");
 }
+}
+types();
+
